@@ -23,6 +23,9 @@ El proyecto a desplegar en este laboratorio es una aplicación web. La aplicaci�
 ## Setup
 ### Diagrama de despliegue
 ![Diagram_desploy_Aws_react-Page-4 drawio (2)](https://user-images.githubusercontent.com/53051443/168498725-27b5a67b-fec6-40a5-ab63-c1fa3582c80c.svg)
+### Diagrama de UPTIME ROBOT 
+![image](https://user-images.githubusercontent.com/53051443/168499871-9d2218c8-ad4b-4d05-a2db-85651d453d7b.png)
+
 
 ## EC2
 Para objetivos con respecto al proyecto dos se tuvo en consideraciones la creación de:
