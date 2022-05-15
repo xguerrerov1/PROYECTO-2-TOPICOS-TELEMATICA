@@ -39,7 +39,7 @@ Para objetivos con respecto al proyecto dos se tuvo en consideraciones la creaci
 -- Esta instancia es la encargada de la parte de tener el mongodb y el nginx para actuar como proxy entre las peticiones entre frontend y backend 
 -- Esta instancia de mongo actua como la principal en el modelo de conexiones a BD
 
-## docker
+## Docker
 ```
 #'update repo'
 sudo apt-get update
@@ -61,10 +61,9 @@ echo \
   
 #'Install DockerEngine'
 sudo apt-get update
- sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 #'Docker  installed correctly'
-   sudo docker run hello-world
+sudo docker run hello-world
 
-  
 ```
