@@ -22,7 +22,7 @@ El proyecto a desplegar en este laboratorio es una aplicación web. La aplicaci�
 
 ## Setup
 ### Diagrama de despliegue
-![Diagram_desploy_Aws_react-Page-4 drawio](https://user-images.githubusercontent.com/53051443/168497527-fa9b3084-05fe-4fb9-b84d-9fd52d7021d3.svg)
+![Diagram_desploy_Aws_react-Page-4 drawio (1)](https://user-images.githubusercontent.com/53051443/168498685-f860443c-897c-4133-980a-17948b99b9bb.svg)
 
 ## EC2
 Para objetivos con respecto al proyecto dos se tuvo en consideraciones la creación de:
