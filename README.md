@@ -8,7 +8,7 @@
     <li><a href="#setup">Flow</a></li>
             <ol>
             <li><a href="#ec2">EC2</a></li>
-            <li><a href="#docker">Instalar Docker</a></li>
+            <li><a href="#docker">Docker</a></li>
             <li><a href="#docker-compose">Instalar Docker compose</a></li>
             <li><a href="#nginx">Nginx</a></li>
         </ol>
