@@ -8,8 +8,8 @@
     <li><a href="#setup">Flow</a></li>
             <ol>
             <li><a href="#ec2">EC2</a></li>
-            <li><a href="#install-docker">Instalar Docker</a></li>
-            <li><a href="#install-docker-compose">Instalar Docker compose</a></li>
+            <li><a href="#docker">Instalar Docker</a></li>
+            <li><a href="#docker-compose">Instalar Docker compose</a></li>
             <li><a href="#nginx">Nginx</a></li>
         </ol>
     <li><a href="#testing">Testing</a></li>
@@ -38,3 +38,33 @@ Para objetivos con respecto al proyecto dos se tuvo en consideraciones la creaci
 4) EC2(MONGO_NGINX)
 -- Esta instancia es la encargada de la parte de tener el mongodb y el nginx para actuar como proxy entre las peticiones entre frontend y backend 
 -- Esta instancia de mongo actua como la principal en el modelo de conexiones a BD
+
+## docker
+```
+#'update repo'
+sudo apt-get update
+
+#'get neccesay'
+sudo apt-get install \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release```
+    
+#'Docker’s official GPG key:'
+ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+ 
+#'stable repository'
+echo \
+  "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+  
+#'Install DockerEngine'
+sudo apt-get update
+ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+#'Docker  installed correctly'
+   sudo docker run hello-world
+
+  
+```
