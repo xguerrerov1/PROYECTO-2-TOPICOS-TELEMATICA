@@ -4,8 +4,8 @@
  <details>
   <summary>Tabla de contenidos</summary>
   <ol>
-    <li><a href="#Objetivo">Objetivo</a></li>
-    <li><a href="#Setup">Flow</a></li>
+    <li><a href="#objetivo">Objetivo</a></li>
+    <li><a href="#setup">Flow</a></li>
             <ol>
             <li><a href="#ec2">EC2</a></li>
             <li><a href="#install-docker">Instalar Docker</a></li>
