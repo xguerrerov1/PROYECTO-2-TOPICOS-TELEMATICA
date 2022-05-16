@@ -1,5 +1,13 @@
 # BookStore
 
+
+🥤🥤🥤
+# Integrantes
+
+## David Felipe Garcia Contreras (dfgarciac1@eafit.edu.co)
+## Camilo Cañas Jaramillo (correo)
+## Ximena Guerrero Villa (correo)
+
  👾👾👾
  <details>
   <summary>Tabla de contenidos</summary>
