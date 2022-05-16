@@ -85,3 +85,11 @@ sudo docker run hello-world
  sudo apt-get install docker-compose-plugin
 
 ```
+## Nginx
+```
+ #Install nginx '
+sudo apt update
+sudo apt install nginx
+
+```
+Luego de tener el nginx instalado se debera modificar de manera que redirija a las privadas del frontend y el backend 
