@@ -5,8 +5,8 @@
 # Integrantes
 
 ## David Felipe Garcia Contreras (dfgarciac1@eafit.edu.co)
-## Camilo Cañas Jaramillo (correo)
-## Ximena Guerrero Villa (correo)
+## Camilo Cañas Jaramillo (ccanasj@eafit.edu.co)
+## Ximena Guerrero Villa (xguerrerov@eafit.edu.co)
 
  👾👾👾
  <details>
@@ -19,6 +19,8 @@
             <li><a href="#docker">Docker</a></li>
             <li><a href="#docker-compose">Instalar Docker compose</a></li>
             <li><a href="#nginx">Nginx</a></li>
+            <li><a href="#balancing-change"</a></li>
+            <li><a href="#VPC"</a></li>
         </ol>
     <li><a href="#testing">Testing</a></li>
   </ol>
@@ -93,3 +95,31 @@ sudo apt install nginx
 
 ```
 Luego de tener el nginx instalado se debera modificar de manera que redirija a las privadas del frontend y el backend 
+
+## Balancing-Change
+En la sección de balanceadores de carga, creamos un  balanceador de carga, uno para el Front para administrar el enrutamiento público  front-end en diferentes zonas de disponibilidad.
+
+El proceso para crear el balanceador de carga fue el siguiente. Teniendo en cuenta que para el tema del frontend es necesario modificar el nginx la configuración para que no de problemas y se direccione con el balanceador de carga.
+
+
+### 1 Crear una AMI para la instancia del frontend 
+### 2 Crear un targer group 
+### 3 Crear el balanceador de carga 
+### 4 Crear una plantilla de lanzamiento
+### 5 Crear el auto scaling group
+
+## VPC
+
+Para los temas de la VPC se configuraron:
+
+```
+DOS ZONAS LA A Y LA B 
+DONDE SE HAYAN 1 PUBLICA Y 2 PRIVADAS PARA CADA ZONA DE DISPONIBILIDAD 
+```
+## DNS 
+```
+Para los temas del DNS se pidio por medio de la pagina de freenom, donde se resuelve apuntando al balanceador de carga por lo cual el dominio es:
+https://pepegan.ga/
+```
+## Calcula el precio 
+https://calculator.aws/#/
